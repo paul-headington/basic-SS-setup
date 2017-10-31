@@ -1,0 +1,28 @@
+{
+	"name": "silverstripe/installer",
+	"description": "The SilverStripe Framework Installer",
+	"require": {
+		"php": ">=5.3.3",
+		"silverstripe/cms": "3.6.2",
+		"silverstripe/framework": "3.6.2",
+		"silverstripe/reports": "3.6.2",
+		"silverstripe/siteconfig": "3.6.2",
+		"silverstripe-themes/simple": "3.1.*",
+		"graphiques-digitale/silverstripe-seo-metadata": "^1.0",
+		"graphiques-digitale/silverstripe-seo-icons": "^1.0",
+		"graphiques-digitale/silverstripe-seo-facebook-domain-insights": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/PHPUnit": "~3.7@stable"
+	},
+	"extra": {
+		"branch-alias": {
+			"3.x-dev": "3.6.x-dev"
+		}
+	},
+	"config": {
+		"process-timeout": 600
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}

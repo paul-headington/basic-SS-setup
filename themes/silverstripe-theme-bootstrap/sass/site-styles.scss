@@ -1,0 +1,94 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    padding-top: 70px;
+  margin-bottom: 30px; /* Margin bottom by footer height */
+}
+
+body.hex {
+    background: url(../images/backgrounds/icing-pattern-hex.svg);
+    background-color: #2BB8EB;
+    background-size: 2000px 2000px;
+    background-position: -286px -560px;
+}
+
+body.cross {
+    background: url(../images/backgrounds/icing-pattern-cross.svg);
+    background-color: #2BB8EB;
+    background-size: 2000px 2000px;
+    background-position: -286px -560px;
+}
+
+body.cross-spaced {
+    background: url(../images/backgrounds/icing-pattern-cross-spaced.svg);
+    background-color: #2BB8EB;
+    background-size: 2000px 2000px;
+    background-position: -286px -560px;
+}
+
+.navbar{
+    min-height: 70px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px; /* Set the fixed height of the footer here */
+    line-height: 30px; /* Vertically center the text there */
+    background-color: #222222;
+}
+  
+.footer a {
+    color: #999;
+}
+.footer a:hover {
+    color: #B90000;
+}
+.footer .left {
+    float: left;
+    color: #000;
+    display: block;
+}
+.footer .right {
+    float: right;
+    display: block;
+}
+.footer span {
+    padding: 0 3px;
+    color: #bbb;
+}
+.footer .primary,
+.footer .primary ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+        .footer .primary li {
+            display: inline;
+        }
+.ie6 .footer .primary li,
+.ie7 .footer .primary li { /* this is a bugfix for ie6/7 */
+    display: inline;
+    zoom: 1;
+    margin-right: 10px;
+}
+.footer .primary li:after { /* adds '/' to separate the footer navigation items */
+    padding: 0 3px 0 5px;
+    content: '/';
+    color: #999;
+}
+.footer .primary li:last-child:after {
+    content: ''; /* makes sure last nav item doesn't have a '/' following it */
+}
+.footer .arrow {
+    padding: 0 8px 0 5px;
+    color: #b80000;
+    font-size: 13px;
+}
+.footer .primary .nav-open-button {
+    display: none; /* the footer includes the primary nav include - this makes sure the nav open close button doesn't show up */
+}

@@ -1,0 +1,39 @@
+{
+  "name": "graphiques-digitale/silverstripe-seo-facebook-domain-insights",
+  "description": "Module for adding Facebook Domain Insights to SilverStripe.",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/Graphiques-Digitale/silverstripe-seo-facebook-domain-insights",
+  "keywords": [
+    "silverstripe",
+    "metadata",
+    "module",
+    "seo",
+    "search",
+    "engine",
+    "optimisation",
+    "optimization",
+    "facebook",
+    "domain",
+    "insights"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Gerber","email": "atari@graphiquesdigitale.net"
+    }
+  ],
+  "support": {
+    "issues": "http://github.com/graphiques-digitale/silverstripe-seo-facebook-domain-insights/issues"
+  },
+  "require": {
+    "graphiques-digitale/silverstripe-seo-metadata": "*"
+  },
+  "extra": {
+    "installer-name": "silverstripe-seo-facebook-domain-insights",
+    "screenshots": [
+      "screenshot-1.png",
+      "screenshot-2.png",
+      "screenshot-3.png"
+    ]
+  }
+}

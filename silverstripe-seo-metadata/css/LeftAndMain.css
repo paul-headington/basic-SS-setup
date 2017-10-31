@@ -1,0 +1,75 @@
+/**
+ * Some additional CSS styles for the CMS.
+ *
+ * @package SEO
+ * @subpackage Metadata
+ * @author Andrew Gerber <atari@graphiquesdigitale.net>
+ * @version 1.0.0
+ *
+ */
+
+/* special header & description label styles */
+
+#Root h2,
+#Root h3,
+#Root h4,
+#Root h5,
+#Root h6 {
+	margin-bottom: 8px;
+}
+#Root span.aka {
+	font-size: 1rem;
+	font-style: italic;
+}
+#Root .information p,
+#Root label.information {
+	display: block;
+	padding: 8px;
+	border: 1px solid #d2d5d8;
+	background-color: #f0f2f4;
+	margin-bottom: 16px;
+}
+
+/* success & failure styles */
+
+#Root .field span.success,
+#Root .ui-tabs-nav .success a {
+	color: green;
+}
+
+#Root .field span.error,
+#Root .ui-tabs-nav .error a {
+	color: red;
+}
+
+/* special SiteConfig favicon style */
+
+#Root #Metadata .field .success.favicon {
+	padding-bottom: 24px;
+	background: transparent url('/favicon.ico') no-repeat left bottom;
+}
+
+/* special pre-formatted style */
+
+#Root pre {
+	font: 10px/12px monospace;
+	white-space: pre-wrap;
+}
+#Root pre.bold {
+	margin: 2em 0;
+	font-weight: bold !important;
+}
+
+/* reposition upload field + description */
+/* @todo (maybe?) increase specificity */
+
+/*#Root_Metadata_set*/
+.cms-edit-form .ss-uploadfield .middleColumn {
+	clear: none;
+	width: 510px;
+	margin-left: 184px;
+}
+/*#Root_Metadata_set*/
+.cms-edit-form .ss-uploadfield .description {
+	margin-left: 184px;
+}
